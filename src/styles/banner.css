@@ -1,0 +1,13 @@
+img{
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+.right-banner{
+    margin: 20px;
+}
+
+img:hover{
+    transform: scale(1.02);
+   
+}

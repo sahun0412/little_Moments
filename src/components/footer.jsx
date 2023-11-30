@@ -11,12 +11,14 @@ const Footer = () => {
         <div style={{
             backgroundColor: "black"
         }}>
+            
             <footer style={{
                 color: 'white',
                 padding: '10px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center'
+
             }}>
 
                 <Grid container
@@ -28,7 +30,8 @@ const Footer = () => {
                             sx={{
                                 m: 4,
                                 fontSize: "50px",
-                                fontWeight: "bolder"
+                                fontWeight: "bolder",
+                                fontFamily: 'Oswald, sans-serif'
                             }}
                         >Website</Typography>
 
@@ -36,7 +39,8 @@ const Footer = () => {
                             display: "flex",
                             flexFlow: "column wrap",
                             lineHeight: "40px",
-                            mx: 4
+                            mx: 4,
+
                         }}>
                             {navItems.map((item) => (
                                 <a key={item} sx={{ backgroundColor: "none", color: '#fff', mx: 4 }}>
@@ -52,7 +56,8 @@ const Footer = () => {
                             sx={{
                                 fontSize: "50px",
                                 fontWeight: "bold",
-                                m: 4
+                                m: 4,
+                                fontFamily: 'Oswald, sans-serif',
                             }}>Important</Typography>
 
                         <Typography sx={{
@@ -73,7 +78,8 @@ const Footer = () => {
                             sx={{
                                 fontSize: "50px",
                                 fontWeight: "bold",
-                                m: 4
+                                m: 4,
+                                fontFamily: 'Oswald, sans-serif',
                             }}>Contact</Typography>
                         <Typography sx={{
                             mx: 4,
@@ -107,17 +113,20 @@ const Footer = () => {
 
                 </Grid>
 
-               <Grid sx={{ display: { xs: 'none', sm: 'block', md:"block" } }}>
-               <Typography sx={{
-                    color:"#404040",
-                    fontWeight:"bold",
-                    fontSize:"180px",
-                    mt:2,
-                    fontFamily:"sans-serif"
-                }}>
-                    LITTLE MOMENTS
-                </Typography>
-               </Grid>
+                <Grid sx={{ display: { xs: 'none', sm: 'block', md: 'block' } }}>
+                    <Typography sx={{
+                        color: "#404040",
+                        fontWeight: "bold",
+                        fontSize: "180px",
+                        fontFamily: 'Oswald, sans-serif',
+                        letterSpacing: "-5px",
+                        lineHeight: "1.8",
+                        wordSpacing: "50px"
+                    }}>
+                        LITTLE MOMENTS
+                    </Typography>
+                </Grid>
+
 
             </footer>
         </div>
