@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './components/banner';
 import Contact from './components/contact';
 import Nav from './components/nav';
+import Overview from './components/overview';
 import PreFooter from './components/preFooter';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <main>
             <Banner />
             <Contact />
+
+            <Overview/>
         </main>
       </section>
 
