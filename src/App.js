@@ -5,6 +5,8 @@ import Contact from './components/contact';
 import Nav from './components/nav';
 import Overview from './components/overview';
 import PreFooter from './components/preFooter';
+import Rating from './components/rating';
+import Testimonial from './components/testimonial';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
             <Contact />
 
             <Overview/>
+
+            <Rating />
+
+            <Testimonial />
+            
         </main>
       </section>
 
