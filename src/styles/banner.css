@@ -9,3 +9,11 @@ img:hover{
     transform: scale(1.02);
    
 }
+
+
+/* Add this to your existing CSS */
+@media screen and (max-width: 600px) {
+    .banner-right {
+        width: 100%;
+    }
+}

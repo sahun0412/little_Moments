@@ -7,6 +7,7 @@ import Overview from './components/overview';
 import PreFooter from './components/preFooter';
 import Rating from './components/rating';
 import Testimonial from './components/testimonial';
+import Cards from './components/cards';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
             <Rating />
 
             <Testimonial />
+
+            <Cards />
             
         </main>
       </section>
